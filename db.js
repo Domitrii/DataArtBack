@@ -4,6 +4,7 @@ import mongoose from "mongoose"
 dotenv.config()
 
 const { DB_URI } = process.env
+console.log(DB_URI)
 
 if (!DB_URI) {
   console.error("Error: DB_URI is not defined in .env");
