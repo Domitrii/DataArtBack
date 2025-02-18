@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 
 dotenv.config()
 
-const { DB_URI } = process.env
+const DB_URI = process.env.DB_URI
 
 
 if (!DB_URI) {
