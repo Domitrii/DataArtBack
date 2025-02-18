@@ -3,8 +3,8 @@ import mongoose from "mongoose"
 
 dotenv.config()
 
-const { DB_URI } = process.env
-console.log(DB_URI)
+const DB_URI="mongodb+srv://vika:12062005@cluster0.oddadwz.mongodb.net/DataArt?retryWrites=true&w=majority&appName=Cluster0"
+
 
 if (!DB_URI) {
   console.error("Error: DB_URI is not defined in .env");
