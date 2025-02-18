@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 
 dotenv.config()
 
-const DB_URI="mongodb+srv://vika:12062005@cluster0.oddadwz.mongodb.net/DataArt?retryWrites=true&w=majority&appName=Cluster0"
+const { DB_URI } = process.env
 
 
 if (!DB_URI) {
